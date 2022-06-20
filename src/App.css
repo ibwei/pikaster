@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  padding-top: 30px;
+  background: url('./download.png') top center no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .App-logo {
@@ -26,6 +30,40 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.level-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+img {
+  height: 240px;
+  width: auto;
+}
+
+img + img {
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 @keyframes App-logo-spin {
